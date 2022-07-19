@@ -1,0 +1,368 @@
+header {
+  background-color: #001a2c;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+}
+
+header .hidden {
+  display: none;
+}
+
+header nav {
+  padding-top: 1em;
+  padding-bottom: 0.75em;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+header nav .left {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0em 1em;
+  flex: 0.2;
+}
+
+header nav .middle {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+  align-items: center;
+  flex: 0.5;
+}
+
+header nav .right {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid #1365cf; */
+  padding: 0em 1em;
+  flex: 0.3;
+}
+
+header nav .middle input {
+  width: 42em;
+  height: 38px;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 14px;
+  float: right;
+}
+
+header nav .middle .search_icon {
+  background-color: #ffffff;
+  height: 38px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  cursor: pointer;
+}
+
+header nav .left .navlogo {
+  width: 170px;
+  height: 43px;
+}
+
+header nav .left .hamburger {
+  display: none;
+}
+
+header nav .nav_searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header nav .left input:focus{
+    border: 2px solid #febd69;
+} */
+
+header nav .right .lang-btn {
+  cursor: pointer;
+  font-size: 1.2em;
+  height: 40px;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0em 2em;
+  text-align: center;
+}
+
+header nav .right .acc_btn {
+  line-height: 40px;
+  height: 40px;
+  display: flex;
+  width: 100%;
+  padding: 0em 2.5em;
+  cursor: pointer;
+}
+
+header nav .right .acc_btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+header nav .right .acc_btn:hover {
+  background-color: #154c77;
+}
+
+header nav .right .cart_btn {
+  font-size: 1em;
+  line-height: 40px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0em 2.5em;
+  cursor: pointer;
+}
+
+header nav .right .cart_btn:hover {
+  background-color: #154c77;
+}
+header nav .right .lang-btn:hover {
+  background-color: #154c77;
+}
+
+header nav .right .cart_btn .hd-minicart-badge {
+  font-family: "Roboto", sans-serif;
+  background-color: #fec525;
+  border-radius: 50px;
+  color: #001a2c;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  font-weight: 600;
+  border: 2px #001a2c solid;
+}
+header nav .right .cart_btn .c {
+  width: 50px;
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  float: none;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header nav .right .acc_btn .log {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+header .extrasearch {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  top: 49px;
+  width: 39.25em;
+}
+
+header .extrasearch a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* drawer sty */
+header nav .drawer {
+  width: 250px;
+  background-color: red;
+}
+
+.reg {
+  color: #38393a;
+}
+
+/*tab*/
+@media (max-width: 990px) {
+  header nav {
+    overflow: hidden;
+    padding: 0.5em;
+  }
+  header nav .left {
+    display: flex;
+    flex: 0.4;
+  }
+  header nav .right {
+    display: flex;
+    flex: 0.6;
+  }
+  header nav .left .hamburger {
+    display: flex;
+  }
+  header nav .middle input {
+    display: flex;
+    width: 22em;
+    height: 2.9em;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  header nav .middle .search_icon {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+  }
+
+  header nav .left .navlogo {
+    height: 2.3em;
+    width: auto;
+    margin: auto;
+    padding: auto;
+  }
+
+  header nav .right {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header nav .right .lang-btn {
+    display: flex;
+    padding: 0em 0.5em 0.5em 0.5em;
+  }
+  header nav .right .acc_btn {
+    display: flex;
+    padding: 0em 0.5em 0.5em 0.5em;
+  }
+  header nav .right .cart_btn {
+    display: flex;
+    padding: 0em 0.5em 0.5em 0.5em;
+  }
+
+  header .extrasearch {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 47px;
+    width:21.75em;
+    border-bottom-right-radius: 3px;
+    border: transparent;
+  }
+}
+
+
+/*mobile*/
+@media (max-width: 800px) {
+  header .hidden {
+    display: flex;
+    padding: 0.75em 2em;
+    background-color: #001a2c;
+    align-items: center;
+    width: 100%;
+  }
+  header .hidden input {
+    width: 50em;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 14px;
+    float: right;
+  }
+
+  header .hidden .search_icon {
+    background-color: #ffffff;
+    height: 38px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    cursor: pointer;
+  }
+
+  header nav {
+    overflow: hidden;
+    padding: 0.5em;
+  }
+  header nav .left {
+    display: flex;
+    flex: 0.4;
+  }
+  header nav .right {
+    display: flex;
+    flex: 0.6;
+  }
+  header nav .left .hamburger {
+    display: flex;
+  }
+
+  header nav .middle input {
+    display: none;
+  }
+
+  header nav .middle .search_icon {
+    display: none;
+  }
+
+  header nav .left .navlogo {
+    max-height: 25px;
+    width: auto;
+    margin: auto;
+    padding: auto;
+  }
+
+  header nav .right {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header nav .right .lang-btn {
+    display: flex;
+    padding: 0em 1em 1em 1em;
+  }
+  header nav .right .acc_btn {
+    display: flex;
+    padding: 0em 1em 1em 1em;
+  }
+  header nav .right .cart_btn {
+    display: flex;
+    padding: 0em 1em 1em 1em;
+  }
+  header .extrasearch {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 110px;
+    width: auto;
+    margin-left: 8em;
+  }
+}

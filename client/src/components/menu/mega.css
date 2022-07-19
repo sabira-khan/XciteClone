@@ -1,0 +1,21 @@
+.megamenu {
+   position:static;
+   z-index: 1;
+ 
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border-radius: 0px;
+    width: 45em;
+    margin: 0px;
+    overflow: auto;
+  }
+  
+
+.megamenu .dropdown-menu .container {
+    width: 100%;
+    border: 5px solid #fec525;
+    background-color:rgb(255, 252, 249);
+    position: static;
+}

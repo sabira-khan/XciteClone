@@ -1,0 +1,85 @@
+.newsletter {
+    color: white;
+    top: 60px;
+    background-color:#001a2c;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter .sign {
+   
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.newsletter .subscribe {
+    
+    font-size: 0.9em;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+
+.newsletter .app__newsletter-input {
+   
+   
+    margin-top: 1rem;
+
+}
+
+.newsletter .app__newsletter-input input {
+    width:37%;
+    border: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 1rem;
+    font-family: "Roboto";
+    color: black;
+    padding: 5px 15px 5px 15px;
+    background: white;
+   
+}
+
+.newsletter .app__newsletter-input .custom__button {
+    width: 23%;
+    height: 36px;
+    font-weight: 600;
+    background-color: #fec525;
+    border: 1px solid #fec525;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 1px 1px;
+}
+
+.newsletter .last {
+    padding: 30px 5px 30px 5px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__newsletter-input input {
+        font-size: 2rem;
+       
+    }
+}
+
+@media screen and (max-width: 990px) {
+    
+    .app__newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__newsletter-input .custom__button {
+        width: 25%;
+    }
+    .app__newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 30%;
+    }
+}

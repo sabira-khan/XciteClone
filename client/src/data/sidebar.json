@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Computers & Tablets",
+        "childrens": [
+            {
+                "title": "Laptops",
+                "path": "/"
+            },
+            {
+                "title": "Computers",
+                "path": "/"
+            },
+            {
+                "title": "Tablets",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Phones & Personal Audio",
+        "childrens": [
+            {
+                "title": "Mobiles",
+                "path": "/"
+            },
+            {
+                "title": "Headphones",
+                "path": "/"
+            },
+            {
+                "title": "Headsets",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "iTunes & Game Cards",
+        "childrens": [
+            {
+                "title": "iTunes cards",
+                "path": "/"
+            },
+            {
+                "title": "PSN cards",
+                "path": "/"
+            },
+            {
+                "title": "Anghami Cards",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Home Entertainment",
+        "childrens": [
+            {
+                "title": "TVs & Screens",
+                "path": "/"
+            },
+            {
+                "title": "Audio Equipment",
+                "path": "/"
+            },
+            {
+                "title": "TV stands & Mounts",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Large Home Appliances",
+        "childrens": [
+            {
+                "title": "Washing",
+                "path": "/"
+            },
+            {
+                "title": "Cooking",
+                "path": "/"
+            },
+            {
+                "title": "Refrigerators",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Small Home Appliances",
+        "childrens": [
+            {
+                "title": "Food Prep",
+                "path": "/"
+            },
+            {
+                "title": "Vacuums & Cleaning",
+                "path": "/"
+            },
+            {
+                "title": "Irons & Steamers",
+                "path": "/"
+            }
+        ]
+    }
+]
